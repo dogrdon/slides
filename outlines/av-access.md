@@ -1,5 +1,5 @@
-###State of Video Collections in the DPLA
-  - or "Better video access through sisyphean feats of administrative glory, the story of ..."
+###New Ways to Access Our Video Collections
+  - or "What I learned about a sample of video collections from the DPLA, how it changed me, and maybe some interesting implications and stuff, maybe, I don't know."
   - my name
   - I work at a repository that deals with video data for researchers
  
