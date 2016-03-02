@@ -51,6 +51,29 @@ body {
   border: none;
 }
 
+/*some colors*/
+.orange{
+    background-color: #FFD6AD;
+}
+
+.lavender{
+    background-color: #D6ADFF;
+}
+
+.pink{
+    background-color: #FFADD6;
+}
+
+.mint{
+    background-color: #A6F5CE;
+}
+
+.skyblue{
+    background-color: #85D6FF;
+}
+
+
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -79,7 +102,6 @@ body {
 
 .reveal h2 {
   font-size: 2.11em;
-  background-color: rgba(221, 221, 221, 0.7);
   padding: 20px; }
 
 .reveal h3 {
