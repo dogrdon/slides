@@ -41,83 +41,12 @@
 			<div class="slides">
 				<section data-background="">
 					<h2 class="orange">Accessible Digital Video Libraries for Humans <span style="text-decoration: underline;">and</span> Machines</h2> 
-					<h5 class="pink">Drew Gordon - Data Curator, Databrary Project</h5>
-					<h6 class="mint">drew.gordon@nyu.edu</h5>
+					<h5 class="pink">Drew Gordon - Data Curator, Databrary Project - NYU</h5>
+					<h6 class="mint">drew@databrary.org</h5>
 					<aside class="notes">
 						
 					</aside>
 				</section>
-
-				<section data-background="">
-						<h3 class="pink">Make a twitter bot. Sure why not?</h3>
-						<img class="plain" src="https://imgs.xkcd.com/comics/twitter_bot.png"/>
-						<a href="https://xkcd.com/1646/">https://xkcd.com/1646/</a>
-						<aside class="notes">
-							
-						</aside>
-				</section>
-
-				<section data-background="">
-					<h3 class="pink">Historical GIFs</h3>
-					<h4><a href="https://twitter.com/dpladotgif" target="_blank">@dpladotgif</a></h4>
-					<img class="plain" src="images/hist_gif_sloth.gif" style="width: 50%; height: 50%"/>
-				</section>
-
-				<section>
-					<h3 class="lavender">Video In the DPLA</h3>
-					<ul>
-						<li class="fragment"> 27,099 Moving image items (Feb 2016)</li>
-						<li class="fragment"> 17 Hubs </li>
-						<li class="fragment">Standardized search, all in one place</li>
-					</ul>
-					<aside class="notes">
-						What are we dealing with conceptually with this project.
-					</aside>
-
-				</section>
-
-				<section>
-					<img class="plain" src="images/video_counts.gif"/>
-					<aside class="notes">
-						but videos are provided in large amounts by a few providers, the rest is a long tail. 
-					</aside>
-				</section>
-
-				<section>
-					<h3 class="lavender">Challenges to Automated Access</h3>
-					<ul>
-						<li class="fragment">Not able to store derivatives locally</li>
-						<li class="fragment">No consistent indication of resource location in metadata</li>
-						<li class="fragment">Wide diversity of implementations for delivering access copies at host sites</li>
-					</ul>
-					<aside class="notes">
-						but what's the problem: specifically in dpla...
-					</aside>
-				</section>
-				<section> 
-					<h3 class="lavender">What's the deal with video?</h3>
-					<ul>
-						<li class="fragment">Relatively massive</li>
-						<li class="fragment">Restrictions and rights</li>
-						<li class="fragment">Encodings and formats</li>
-						<li class="fragment">Rich with information not immediately searchable</li>
-					</ul>
-		
-						<aside class="notes">
-							or the problem more generally...
-						</aside>
-				</section>
-
-				<section>
-					<h3 class="mint">Some Questions</h3>
-					<ul>
-						<li class="fragment">For whom (and what) are we designing digital video libraries for?</li>
-						<li class="fragment">Accounting for uses that weren't conceivable 5 years ago?</li>
-						<aside class="notes">
-						</aside>
-					</ul>	
-				</section>
-
 				<section>
 
 					<h2 class="pink">More to videos than just watching them</h2>
@@ -127,21 +56,64 @@
 					</aside>
 
 				</section>
-
-				<section data-background="images/dogtv1.gif">
+				<!-- issue -->	
+				<section data-background="images/question.gif" data-background-size="contain">
+					<h3 class="pink">
+						Are digital video libraries prepared for automated services?
+					</h3>	
 					<aside class="notes">
 					</aside>
 				</section>
-				<section data-background="images/dogtv2.gif">
+
+				<section data-background="images/diagram1.png" data-background-size="contain">
 					<aside class="notes">
+					</aside>
+				</section>
+				<section data-background="images/diagram2.png" data-background-size="contain">
+					<aside class="notes">
+					</aside>
+				</section>	
+
+
+				<!-- test case -->
+
+				<section>
+					<h3 class="lavender">Video In the DPLA</h3>
+					<ul>
+						<li class="fragment"> 27,099 Moving image items (Feb 2016)</li>
+						<li class="fragment"> 17 different providers, 51 different institutions </li>
+						<li class="fragment">Standardized search, all in one place</li>
+					</ul>
+					<aside class="notes">
+						What are we dealing with conceptually with this project.
 					</aside>
 				</section>
 
 				<section>
-					<h3 class="mint">Design Principles</h3>
+					<h3 class="lavender">Historical GIFs</h3>
+					<h4><a href="https://twitter.com/dpladotgif" target="_blank">@dpladotgif</a></h4>
+					<img class="plain" src="images/hist_gif_sloth.gif" style="width: 50%; height: 50%"/>
+				</section>
+
+				<section>
+					<h3 class="pink">Challenges to Automated Access to Video in the DPLA</h3>
 					<ul>
-						<li class="fragment">Distributed but connected collections</li>
-						<li class="fragment">Allow services from outside to connect to video resources</li>
+						<li class="fragment">Not able to store derivatives locally</li>
+						<li class="fragment">No consistent direct URL to video resources in metadata</li>
+						<li class="fragment">Diversity of delivery platforms at host sites</li>
+					</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<!-- towards a solution -->
+
+				<section>
+					<h3 class="mint">Looking Ahead</h3>
+					<ul>
+						<li class="fragment">Distributed, not centralized</li>
+						<li class="fragment">Make video collections more accessible to machines from where they already are</li>
+						<li class="fragment">Allow services from outside to connect to them</li>
 					</ul>
 					<aside class="notes">
 						Problem established, but where to from here??
@@ -151,8 +123,8 @@
 				<section>
 					<h3 class="mint">Solutions</h3>
 					<ul>
-						<li class="fragment">Open standards (e.g., HTML 5 &lt;video&gt;, schema.org )</li>
-						<li class="fragment">Provide resource location in metadata/API</li>		
+						<li class="fragment">Open standards (e.g., HTML 5 &lt;video&gt; element, schema.org VideoObject properties )</li>
+						<li class="fragment">Provide URL to file in metadata/API</li>		
 					</ul>
 					<aside class="notes">
 						Some basic (but not easy/scalable) solutions...
@@ -162,22 +134,7 @@
 
 				</section>
 
-				<section>
-					<h3 class="mint">Possibilities</h3>
-					<ul>
-						<li class="fragment">Thumbnail previews via streaming videos to FFMPEG</li>
-						<li class="fragment">Leverage nueral networks for automated metadata generation</li>
-						<li class="fragment">Automated transcription from anywhere</li>					
-						<li class="fragment">Open Annotations???</li>	
-					</ul>
-
-					<aside class="notes">
-						from which follows much more than twitter bots
-						findability and reusability enhancements...
-					</aside>
-				</section>
-
-				<section data-background="images/howtodrawowl.jpg">
+				<section data-background="images/howtodrawowl.jpg" data-background-size="contain">
 					<aside class="notes">
 					</aside>
 				</section>
@@ -185,7 +142,7 @@
 				<section>
 					<h2 class="skyblue">Thank You!</h2>
 					<div class="raised">
-						<h5 class="mint">drew.gordon@nyu.edu</h5>
+						<h5 class="mint">drew@databrary.org</h5>
 						<h5 class="pink">@dogrdon</h5>
 						<h5 class="orange"><a href="https://github.com/dogrdon/accidentalculture"></a>https://github.com/dogrdon/accidentalculture</h5>
 						<aside class="notes">
